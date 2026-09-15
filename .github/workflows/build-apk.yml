@@ -13,7 +13,7 @@ jobs:
 
       - name: Extract Android project
         run: |
-          unzip -o SHARDA_BOUTIQUE_ANDROID_APP_PROJECT*.zip  
+         -o SHARDA_BOUTIQUE_ANDROID_PROJECT.zip  
           cp -r androidproj/. .
           rm -rf androidproj
           chmod +x gradlew 2>/dev/null || true
