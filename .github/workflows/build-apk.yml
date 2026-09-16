@@ -13,7 +13,7 @@ jobs:
 
       - name: Extract Android project
         run: |
-         unzip -o "SHARDA_BOUTIQUE_ANDROID_PROJECT_JVM17_PHOTO_FIXED_UPDATE_READY (
+         unzip -o *.zip
          (2).zip"
           cp -r androidproj/. .
           rm -rf androidproj
