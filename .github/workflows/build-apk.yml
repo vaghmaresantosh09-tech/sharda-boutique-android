@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Extract Android project
-        run
+        rrun: |
        unzip -o SHARDA_BOUTIQUE_ANDROID_PROJECT_JVM17_PHOTO_FIXED_UPDATE_READY.zip
           cp -r androidproj/. .
           rm -rf androidproj
