@@ -12,11 +12,11 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Extract Android project
-run: |
-  unzip -o *.zip
-  cp -r androidproj/. .
-  rm -rf androidproj
-  chmod +x gradlew 2>/dev/null || true
+         run: |
+         unzip -o *.zip
+         cp -r androidproj/. .
+         rm -rf androidproj
+         chmod +x gradlew 2>/dev/null || true
 
       - name: Setup Java
         uses: actions/setup-java@v4
